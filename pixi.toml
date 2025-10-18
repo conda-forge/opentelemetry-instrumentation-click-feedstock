@@ -7,7 +7,7 @@
 
 [project]
 name = "opentelemetry-instrumentation-click-feedstock"
-version = "3.52.2"  # conda-smithy version used to generate this file
+version = "3.52.3"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/opentelemetry-instrumentation-click-feedstock"
 authors = ["@conda-forge/opentelemetry-instrumentation-click"]
 channels = ["conda-forge"]
