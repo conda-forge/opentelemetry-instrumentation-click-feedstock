@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: opentelemetry-instrumentation-click
-  version: "0.59b0"
+  version: "0.60b0"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/opentelemetry_instrumentation_click-${{ version }}.tar.gz
-  sha256: 8f5a18fd83528625bd33efa8e3c9d4c3bb69f20612ca98bcc8f19f6b35c0b90f
+  sha256: 3394cb22f72ab518db3642d2555c2fc0fb7ee5c117cf115a06bb2d3fbe68bf9e
 
 build:
   number: 0
