@@ -47,5 +47,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - pb01ka
     - rxm7706
     - conda-forge/opentelemetry-api
