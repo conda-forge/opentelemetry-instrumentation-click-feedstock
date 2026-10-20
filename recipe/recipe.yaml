@@ -54,6 +54,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - jsmolic
     - pb01ka
     - rxm7706
     - conda-forge/opentelemetry-api
