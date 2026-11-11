@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: 0.66b1
+  version: 0.66b2
 
 package:
   name: opentelemetry-instrumentation-click
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/o/opentelemetry-instrumentation-click/opentelemetry_instrumentation_click-${{ version }}.tar.gz
-  sha256: db6c3d1d950227d23f6e03e8ffc83a73eb36928c619fd65e0161fd15e74a5dbc
+  sha256: 6fb8733ac784ecb1ad4593463fde2e1e970c736e3cf0c3bec7c8eab03a2125e2
 
 build:
   number: 0
@@ -29,8 +29,6 @@ requirements:
     - opentelemetry-semantic-conventions ==${{ version }}
     - wrapt >=1.0.0,<3.0.0
     - click >=8.1.3,<9.0.0
-    - opentelemetry-instrumentation ==0.66b1
-    - opentelemetry-semantic-conventions ==0.66b1
 tests:
   - python:
       imports:
